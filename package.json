@@ -1,0 +1,35 @@
+{
+  "name": "another-blog",
+  "version": "1.0.0",
+  "description": "Just another blog!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiacoppini/another-blog.git"
+  },
+  "author": "Mattia Coppini<mattia.coppini@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattiacoppini/another-blog/issues"
+  },
+  "homepage": "https://github.com/mattiacoppini/another-blog#readme",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/styled-components": "^5.1.11",
+    "babel-plugin-styled-components": "^1.13.2",
+    "typescript": "^4.3.5"
+  }
+}

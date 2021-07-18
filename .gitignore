@@ -1,2 +1,9 @@
-.npmrc
+# Misc
 /node_modules
+
+# Configuration files
+.npmrc
+.nvmrc
+
+# Build files
+.next/
