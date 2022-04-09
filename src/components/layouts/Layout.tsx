@@ -1,5 +1,6 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, ThemeProvider } from "styled-components"
 import { NavBar } from "../Navbar"
+import theme from "../ui/themes/prefab/MyTheme"
 import MainContent from "./MainContent"
 
 const GlobalStyles = createGlobalStyle`
@@ -11,13 +12,13 @@ const GlobalStyles = createGlobalStyle`
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <GlobalStyles />
       <NavBar />
       <MainContent>
         { children }
       </MainContent>
-    </>
+    </ThemeProvider>
   )
 }
 
